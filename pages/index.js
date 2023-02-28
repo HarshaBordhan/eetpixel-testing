@@ -319,20 +319,20 @@ export default function Home() {
                   <path
                     d="M1 4.83746C11.8423 2.83119 44.0161 -0.579469 85.9723 1.82805"
                     stroke="#FFC11F"
-                    stroke-width="2"
-                    stroke-linecap="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
                   />
                   <path
                     d="M24.5006 10.7151C32.2065 8.44499 55.2672 3.51458 85.8631 1.95357"
                     stroke="#FFC11F"
-                    stroke-width="2"
-                    stroke-linecap="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
                   />
                   <path
                     d="M24.7557 10.6738C35.1798 9.57612 65.9226 8.7332 105.501 14.1427"
                     stroke="#FFC11F"
-                    stroke-width="2"
-                    stroke-linecap="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
                   />
                 </svg>
               </span>
