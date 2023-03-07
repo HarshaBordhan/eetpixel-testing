@@ -32,6 +32,7 @@ a {
 .firstText{
   @apply font-normal text-sm
 }
+
 .secondText{
   @apply font-thin text-sm
 }
@@ -39,3 +40,5 @@ a {
 .service{
   @apply flex flex-col justify-evenly w-auto h-36 cursor-pointer
 }
+
+/* test */
