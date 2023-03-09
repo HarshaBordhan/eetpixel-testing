@@ -14,7 +14,10 @@ export default function Home() {
         <div className="max-w-[1152px] max-h-[3626px] mx-auto">
           <Header />
           <main className="flex flex-col">
-            <section className="flex flex-col justify-center items-center gap-8 my-44">
+            <section
+              className="flex flex-col justify-center items-center gap-8 my-44"
+              id="section-1"
+            >
               <h2 className="text-5xl font-thin px-52 text-center tracking-wider leading-[52px]">
                 Empowering business through <strong>cutting-edge</strong>{" "}
                 technology
