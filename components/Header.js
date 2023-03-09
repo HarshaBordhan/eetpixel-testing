@@ -31,7 +31,7 @@ export default function Header() {
           </Link>
           {/* </div> */}
         </div>
-        <nav className="">
+        <nav className="nav__links">
           <ul className="flex flex-row justify-between items-center h-12 px-2 py-1 rounded-full bg-[#1a1c23]">
             <li className="nav-items border border-[#ffffff14]">Work</li>
             <li className="nav-items">Services</li>
