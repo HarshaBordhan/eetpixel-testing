@@ -19,7 +19,8 @@ export default function Home() {
                 Empowering business through <strong>cutting-edge</strong>{" "}
                 technology
               </h2>
-              <button className="w-44 h-12 bg-[#FFBF00] rounded-full shadow-[2px_3px_0px_#F49D1A;] hover:scale-[1.02] duration-200">
+              {/* <button className="w-44 h-12 bg-[#FFBF00] rounded-full shadow-[2px_3px_0px_#F49D1A;] hover:scale-[1.02] duration-200"> */}
+              <button className="w-44 h-12 bg-[#FFBF00] text-black rounded-full shadow-[2px_3px_0px_#F49D1A;] hover:scale-[1.02] duration-200">
                 Get consultant
               </button>
             </section>
