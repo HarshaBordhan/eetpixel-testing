@@ -39,8 +39,8 @@ export default function Header() {
             <li className="nav-items">Contact us</li>
           </ul>
         </nav>
+        <div className="w-12"></div>
       </div>
-      <div className="w-12"></div>
     </header>
   );
 }
