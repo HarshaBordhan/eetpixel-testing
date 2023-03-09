@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <contain className="">
-        <div className="max-w-[1152px] max-h-[3626px] mx-auto">
+        <div className="max-w-[1440px] mx-auto">
           <Header />
           <main className="flex flex-col">
             <section
