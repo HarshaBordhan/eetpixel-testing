@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="flex flex-row justify-between py-4 sticky top-0 w-full">
+    <header className="flex flex-row justify-between py-4 sticky top-0 w-full">
       <div className="logo">
         {/* <div className="flex justify-center items-center w-12 h-12 bg-[#1a1c23] rounded-full"> */}
         <Link className="" href="#header">
@@ -39,6 +39,6 @@ export default function Header() {
         </ul>
       </div>
       <div className="w-12"></div>
-    </div>
+    </header>
   );
 }
