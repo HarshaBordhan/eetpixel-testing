@@ -5,7 +5,7 @@ export default function Header() {
     <header className="flex flex-row justify-between py-4 sticky top-0 w-full">
       <div className="logo">
         <div className="flex justify-center items-center w-12 h-12 bg-[#1a1c23] rounded-full">
-          <Link>
+          <Link href="#header">
             <svg
               width="48"
               height="48"
