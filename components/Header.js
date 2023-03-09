@@ -3,7 +3,7 @@ export default function Header() {
     <header className="flex flex-row justify-between py-4 sticky top-0 w-full">
       <div className="logo">
         <div className="flex justify-center items-center w-12 h-12 bg-[#1a1c23] rounded-full">
-          <div className="flex justify-center items-center w-10 h-10 border border-[#ffffff14] rounded-full">
+          {/* <div className="flex justify-center items-center w-10 h-10 border border-[#ffffff14] rounded-full">
             <svg
               width="23"
               height="20"
@@ -16,7 +16,8 @@ export default function Header() {
                 fill="#FFC11F"
               />
             </svg>
-          </div>
+          </div> */}
+          
         </div>
       </div>
       <div className="">
