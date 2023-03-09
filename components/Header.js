@@ -31,14 +31,14 @@ export default function Header() {
           </Link>
           {/* </div> */}
         </div>
-        <div className="">
+        <nav className="">
           <ul className="flex flex-row justify-between items-center h-12 px-2 py-1 rounded-full bg-[#1a1c23]">
             <li className="nav-items border border-[#ffffff14]">Work</li>
             <li className="nav-items">Services</li>
             <li className="nav-items">About</li>
             <li className="nav-items">Contact us</li>
           </ul>
-        </div>
+        </nav>
       </div>
       <div className="w-12"></div>
     </header>
