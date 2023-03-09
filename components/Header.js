@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="fixed top-[15px] left-0 right-0 z-[100] mx-auto my-0 max-w-[1440px]">
+    <header className="fixed top-[15px] left-0 right-0 z-[100] mx-auto my-0">
       <div className="nav flex flex-row justify-between items-center w-full py-4">
         <div className="logo">
           {/* <div className="flex justify-center items-center w-12 h-12 bg-[#1a1c23] rounded-full"> */}
