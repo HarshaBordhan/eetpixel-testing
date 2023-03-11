@@ -18,7 +18,7 @@ export default function Home() {
               className="flex flex-col justify-center items-center gap-8 py-60"
               id="section-1"
             >
-              <h2 className="text-6xl font-thin px-52 text-center tracking-wider">
+              <h2 className="text-6xl font-thin px-52 text-center tracking-wider leading-[68px]">
                 Empowering business through <strong>cutting-edge</strong>{" "}
                 technology
               </h2>
