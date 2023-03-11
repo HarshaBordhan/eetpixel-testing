@@ -27,7 +27,7 @@ export default function Home() {
                 Get consultant
               </button>
             </section>
-            <section className="flex justify-center items-center flex-col gap-8 mb-44 pt-[1rem]">
+            <section className="flex justify-center items-center flex-col gap-8 mb-44 pt-20">
               <div className="flex flex-col items-center gap-3">
                 <span>
                   <svg
