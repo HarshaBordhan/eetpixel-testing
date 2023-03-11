@@ -13,7 +13,7 @@ export default function Home() {
       <contain className="">
         <div className="max-w-[1440px] mx-auto px-[2rem] py-[1rem]">
           <Header />
-          <main className="flex flex-col">
+          <main className="flex flex-col mt-12">
             <section
               className="flex flex-col justify-center items-center gap-8 my-44"
               id="section-1"
