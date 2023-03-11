@@ -13,7 +13,7 @@ export default function Home() {
       <contain className="">
         <div className="max-w-[1440px] mx-auto px-[2rem] py-[1rem]">
           <Header />
-          <main className="flex flex-col mt-16">
+          <main className="flex flex-col mt-12">
             <section
               className="flex flex-col justify-center items-center gap-8 my-64"
               id="section-1"
@@ -27,7 +27,7 @@ export default function Home() {
                 Get consultant
               </button>
             </section>
-            <section className="flex justify-center items-center flex-col gap-8 mb-44">
+            <section className="flex justify-center items-center flex-col gap-8 mb-44 pt-[1rem]">
               <div className="flex flex-col items-center gap-3">
                 <span>
                   <svg
