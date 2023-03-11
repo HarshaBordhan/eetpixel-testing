@@ -13,9 +13,9 @@ export default function Home() {
       <contain className="">
         <div className="max-w-[1440px] mx-auto px-[2rem] py-[1rem]">
           <Header />
-          <main className="flex flex-col mt-12">
+          <main className="flex flex-col mt-16">
             <section
-              className="flex flex-col justify-center items-center gap-8 my-44"
+              className="flex flex-col justify-center items-center gap-8 my-64"
               id="section-1"
             >
               <h2 className="text-6xl font-thin px-52 text-center tracking-wider">
