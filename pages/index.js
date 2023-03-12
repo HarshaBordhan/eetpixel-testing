@@ -117,7 +117,7 @@ export default function Home() {
                 </div>
               </div>
             </section>
-            <section className="flex flex-col justify-center gap-8 mb-44">
+            <section className="flex flex-col justify-center gap-8 mb-44 pt-20">
               <div className="flex flex-col items-center gap-3">
                 {" "}
                 <span>
