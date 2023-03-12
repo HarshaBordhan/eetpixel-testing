@@ -50,6 +50,9 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-4 grid-rows-2 justify-center justify-items-center gap-3 gap-y-6">
                 <div className="images col-span-1">
+                  <div>
+                    
+                  </div>
                   <Image
                     src={ImageOne}
                     alt=""
@@ -61,6 +64,9 @@ export default function Home() {
                   <span className="secondText">NFT project to evolve</span>
                 </div>
                 <div className="images col-span-1">
+                  <div>
+                    
+                  </div>
                   <Image
                     src={ImageTwo}
                     alt=""
@@ -72,6 +78,9 @@ export default function Home() {
                   <span className="secondText">NFT project to evolve</span>
                 </div>
                 <div className="images col-span-2">
+                  <div>
+                    
+                  </div>
                   <Image
                     src={ImageThree}
                     alt=""
@@ -83,6 +92,9 @@ export default function Home() {
                   <span className="secondText">NFT project to evolve</span>
                 </div>
                 <div className="images col-span-2">
+                  <div>
+                    
+                  </div>
                   <Image
                     src={ImageFour}
                     alt=""
@@ -94,6 +106,9 @@ export default function Home() {
                   <span className="secondText">NFT project to evolve</span>
                 </div>
                 <div className="images col-span-1">
+                  <div>
+                    
+                  </div>
                   <Image
                     src={ImageTwo}
                     alt=""
@@ -105,6 +120,9 @@ export default function Home() {
                   <span className="secondText">NFT project to evolve</span>
                 </div>
                 <div className="images col-span-1">
+                  <div>
+                    
+                  </div>
                   <Image
                     src={ImageSix}
                     alt=""
