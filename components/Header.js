@@ -32,7 +32,7 @@ export default function Header() {
           {/* </div> */}
         </div>
         <nav className="nav__links">
-          <ul className="flex flex-row justify-evenly items-center w-[376px] h-12 rounded-full bg-[#1a1c23]">
+          <ul className="flex flex-row justify-evenly items-center w-[378px] h-12 rounded-full bg-[#1a1c23]">
             <li className="nav-items activeNav">
               <Link className="nav-links" href="/">
                 Work
