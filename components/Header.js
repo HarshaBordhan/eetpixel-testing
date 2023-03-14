@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import Scroll from "react-scroll";
 
 export default function Header() {
   return (
