@@ -33,8 +33,8 @@ export default function Header() {
         </div>
         <nav className="nav__links">
           <ul className="flex flex-row justify-between items-center h-12 px-2 py-1 rounded-full bg-[#1a1c23]">
-            <li className="nav-items activeNav">
-              <Link className="nav-links" href="/">
+            <li className="nav-items">
+              <Link className="nav-links activeNav" href="/">
                 Work
               </Link>
             </li>
