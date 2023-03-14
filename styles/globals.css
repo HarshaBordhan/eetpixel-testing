@@ -25,6 +25,10 @@ a {
   @apply px-4 py-1.5 rounded-full cursor-pointer
 }
 
+.activeNav{
+  @apply border border-[#ffffff14];
+}
+
 .images{
   @apply flex flex-col gap-1 cursor-pointer
 }
