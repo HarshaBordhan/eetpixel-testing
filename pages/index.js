@@ -132,7 +132,7 @@ export default function Home() {
                 </div>
               </div>
             </section>
-            <section className="flex flex-col justify-center gap-8 mb-44 pt-20">
+            <section className="flex flex-col justify-center gap-8 mb-44 pt-20" id="">
               <div className="flex flex-col items-center gap-3">
                 {" "}
                 <span>
@@ -294,7 +294,7 @@ export default function Home() {
                 </div>
               </div>
             </section>
-            <section className="flex flex-col gap-8 mb-44 pt-20">
+            <section className="flex flex-col gap-8 mb-44 pt-20" id="">
               <div className="flex flex-col items-center gap-3">
                 {" "}
                 <span>
@@ -322,7 +322,7 @@ export default function Home() {
                 <div className="w-64 h-64 bg-[#FFC11F]"></div>
               </div>
             </section>
-            <section className="flex flex-col justify-between items-center mb-44 pt-20">
+            <section className="flex flex-col justify-between items-center mb-44 pt-20" id="">
               <h2 className="font-thin text-3xl mb-3">
                 <strong>Got a project?</strong> Let&#9;s get in touch
               </h2>
