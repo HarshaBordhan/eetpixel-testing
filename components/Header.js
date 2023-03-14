@@ -34,22 +34,22 @@ export default function Header() {
         <nav className="nav__links">
           <ul className="flex flex-row justify-evenly items-center w-[378px] h-12 rounded-full bg-[#1a1c23]">
             <li className="nav-items activeNav">
-              <Link className="nav-links" href="/">
+              <Link className="nav-links" href="#section-2">
                 Work
               </Link>
             </li>
             <li className="nav-items">
-              <Link className="nav-links" href="/">
+              <Link className="nav-links" href="#section-3">
                 Services
               </Link>
             </li>
             <li className="nav-items">
-              <Link className="nav-links" href="/">
+              <Link className="nav-links" href="#section-4">
                 About
               </Link>
             </li>
             <li className="nav-items">
-              <Link className="nav-links" href="/">
+              <Link className="nav-links" href="#section-5">
                 Contact us
               </Link>
             </li>
