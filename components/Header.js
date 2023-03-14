@@ -40,9 +40,9 @@ export default function Header() {
         </div>
         <nav className="nav__links">
           <ul className="flex flex-row justify-evenly items-center w-[378px] h-12 rounded-full bg-[#1a1c23]">
-            <li className="nav-items activeNav">
+            <li className="nav-items">
               <Link
-                className="nav-links"
+                className="nav-links activeNav"
                 to="section-2"
                 spy={true}
                 smooth={true}
