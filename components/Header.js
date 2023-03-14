@@ -6,7 +6,7 @@ export default function Header() {
       <div className="nav flex flex-row justify-between items-center w-full py-0 px-8">
         <div className="logo">
           {/* <div className="flex justify-center items-center w-12 h-12 bg-[#1a1c23] rounded-full"> */}
-          <Link className="" href="#section-1">
+          <Link className="cursor-pointer" href="#section-1">
             <svg
               width="48"
               height="48"
