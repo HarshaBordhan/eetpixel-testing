@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "react-scroll";
 
 export default function Header() {
   return (
@@ -34,7 +34,14 @@ export default function Header() {
         <nav className="nav__links">
           <ul className="flex flex-row justify-evenly items-center w-[378px] h-12 rounded-full bg-[#1a1c23]">
             <li className="nav-items activeNav">
-              <Link className="nav-links" href="#section-2">
+              <Link
+                className="nav-links"
+                to="section-2"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 Work
               </Link>
             </li>
