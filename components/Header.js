@@ -11,7 +11,7 @@ export default function Header() {
             to="section-1"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-50}
             duration={500}
           >
             <svg
@@ -46,7 +46,7 @@ export default function Header() {
                 to="section-2"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 Work
@@ -58,7 +58,7 @@ export default function Header() {
                 to="section-3"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 Services
@@ -70,7 +70,7 @@ export default function Header() {
                 to="section-4"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 About
@@ -82,7 +82,7 @@ export default function Header() {
                 to="section-5"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 Contact us
