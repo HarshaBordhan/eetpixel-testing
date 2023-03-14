@@ -36,9 +36,15 @@ export default function Header() {
             <li className="nav-items activeNav">
               <Link>Work</Link>
             </li>
-            <li className="nav-items">Services</li>
-            <li className="nav-items">About</li>
-            <li className="nav-items">Contact us</li>
+            <li className="nav-items">
+              <Link>Services</Link>
+            </li>
+            <li className="nav-items">
+              <Link>About</Link>
+            </li>
+            <li className="nav-items">
+              <Link>Contact us</Link>
+            </li>
           </ul>
         </nav>
         <div className="w-12"></div>
