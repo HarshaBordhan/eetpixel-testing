@@ -22,7 +22,7 @@ a {
 }
 
 .nav-items{
-  @apply px-3 py-1 rounded-full cursor-pointer
+  @apply px-4 py-1.5 rounded-full cursor-pointer
 }
 
 .activeNav{
