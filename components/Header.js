@@ -34,16 +34,16 @@ export default function Header() {
         <nav className="nav__links">
           <ul className="flex flex-row justify-between items-center h-12 px-2 py-1 rounded-full bg-[#1a1c23]">
             <li className="nav-items activeNav">
-              <Link>Work</Link>
+              <Link href="/">Work</Link>
             </li>
             <li className="nav-items">
-              <Link>Services</Link>
+              <Link href="/">Services</Link>
             </li>
             <li className="nav-items">
-              <Link>About</Link>
+              <Link href="/">About</Link>
             </li>
             <li className="nav-items">
-              <Link>Contact us</Link>
+              <Link href="/">Contact us</Link>
             </li>
           </ul>
         </nav>
