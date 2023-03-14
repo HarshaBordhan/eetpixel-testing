@@ -6,7 +6,14 @@ export default function Header() {
       <div className="nav flex flex-row justify-between items-center w-full py-0 px-8">
         <div className="logo">
           {/* <div className="flex justify-center items-center w-12 h-12 bg-[#1a1c23] rounded-full"> */}
-          <Link className="cursor-pointer" href="#section-1">
+          <Link
+            className="cursor-pointer"
+            to="section-1"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
             <svg
               width="48"
               height="48"
@@ -46,17 +53,38 @@ export default function Header() {
               </Link>
             </li>
             <li className="nav-items">
-              <Link className="nav-links" href="#section-3">
+              <Link
+                className="nav-links"
+                to="section-3"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 Services
               </Link>
             </li>
             <li className="nav-items">
-              <Link className="nav-links" href="#section-4">
+              <Link
+                className="nav-links"
+                to="section-4"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 About
               </Link>
             </li>
             <li className="nav-items">
-              <Link className="nav-links" href="#section-5">
+              <Link
+                className="nav-links"
+                to="section-5"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 Contact us
               </Link>
             </li>
