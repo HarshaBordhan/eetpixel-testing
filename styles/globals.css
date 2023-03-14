@@ -21,7 +21,7 @@ a {
   box-sizing: border-box;
 }
 
-.nav-links{
+.nav-items{
   @apply px-4 py-1.5 rounded-full cursor-pointer
 }
 
