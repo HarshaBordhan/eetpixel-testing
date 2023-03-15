@@ -46,7 +46,7 @@ export default function Header() {
             <li className="nav-items">
               <Link
                 className={`nav-links ${
-                  router.pathname === "#section-2" ? "activeNav" : ""
+                  router.asPath === "section-2" ? "activeNav" : ""
                 }`}
                 to="section-2"
                 spy={true}
@@ -60,7 +60,7 @@ export default function Header() {
             <li className="nav-items">
               <Link
                 className={`nav-links ${
-                  router.pathname === "#section-3" ? "activeNav" : ""
+                  router.asPath === "section-3" ? "activeNav" : ""
                 }`}
                 to="section-3"
                 spy={true}
