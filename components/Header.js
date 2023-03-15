@@ -45,7 +45,9 @@ export default function Header() {
           <ul className="flex flex-row justify-evenly items-center w-[378px] h-12 rounded-full bg-[#1a1c23]">
             <li className="nav-items">
               <Link
-                className="nav-links activeNav"
+                className={`nav-links ${
+                  router.pathname === "section-2" ? "activeNav" : ""
+                }`}
                 to="section-2"
                 spy={true}
                 smooth={true}
@@ -57,7 +59,9 @@ export default function Header() {
             </li>
             <li className="nav-items">
               <Link
-                className="nav-links"
+                className={`nav-links ${
+                  router.pathname === "section-3" ? "activeNav" : ""
+                }`}
                 to="section-3"
                 spy={true}
                 smooth={true}
