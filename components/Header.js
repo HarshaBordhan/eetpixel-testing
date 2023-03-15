@@ -1,8 +1,11 @@
 import { Link } from "react-scroll";
 import { useRouter } from "next/router";
+import { useState } from "react";
 
 export default function Header() {
   const router = useRouter();
+
+  const [click, setClick] = useState(false);
 
   return (
     <header className="fixed top-[1rem] left-0 right-0 z-[100] mx-auto my-0 max-w-[1440px]">
@@ -46,7 +49,7 @@ export default function Header() {
             <li className="nav-items">
               <Link
                 className={`nav-links ${
-                  router.pathname === "section-2" ? "activeNav" : ""
+                  router.pathname === "#section-2" ? "activeNav" : ""
                 }`}
                 to="section-2"
                 spy={true}
@@ -60,7 +63,7 @@ export default function Header() {
             <li className="nav-items">
               <Link
                 className={`nav-links ${
-                  router.pathname === "section-3" ? "activeNav" : ""
+                  router.pathname === "#section-3" ? "activeNav" : ""
                 }`}
                 to="section-3"
                 spy={true}
