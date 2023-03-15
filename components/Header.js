@@ -1,6 +1,9 @@
 import { Link } from "react-scroll";
+import { useRouter } from "next/router";
 
 export default function Header() {
+
+
   return (
     <header className="fixed top-[1rem] left-0 right-0 z-[100] mx-auto my-0 max-w-[1440px]">
       <div className="nav flex flex-row justify-between items-center w-full py-0 px-8">
