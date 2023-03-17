@@ -56,7 +56,7 @@ export default function Home() {
                   <Image
                     src={ImageOne}
                     alt=""
-                    className="rounded-md"
+                    className="rounded-md object-cover w-full"
                     width={262}
                     height={350}
                   />
