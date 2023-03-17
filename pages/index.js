@@ -53,80 +53,71 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-[repeat(4,_minmax(300px,_1fr))] grid-rows-2 justify-center justify-items-center gap-3 gap-y-6">
                 <div className="images col-span-1">
-                  <div>
-                    <Image
-                      src={ImageOne}
-                      alt=""
-                      className="rounded-md"
-                      width={262}
-                      height={350}
-                    />
-                  </div>
+                  <Image
+                    src={ImageOne}
+                    alt=""
+                    className="rounded-md"
+                    width={262}
+                    height={350}
+                  />
+
                   <span className="firstText">MAD Metascientist</span>
                   <span className="secondText">NFT project to evolve</span>
                 </div>
                 <div className="images col-span-1">
-                  <div>
-                    <Image
-                      src={ImageTwo}
-                      alt=""
-                      className="rounded-md"
-                      width={250}
-                      height={218}
-                    />
-                  </div>
+                  <Image
+                    src={ImageTwo}
+                    alt=""
+                    className="rounded-md"
+                    width={250}
+                    height={218}
+                  />
+
                   <span className="firstText">Shuttermint</span>
                   <span className="secondText">NFT project to evolve</span>
                 </div>
                 <div className="images col-span-2">
-                  <div>
-                    <Image
-                      src={ImageThree}
-                      alt=""
-                      className="rounded-md"
-                      width={620}
-                      height={348}
-                    />
-                  </div>
+                  <Image
+                    src={ImageThree}
+                    alt=""
+                    className="rounded-md"
+                    width={620}
+                    height={348}
+                  />
+
                   <span className="firstText">Jigstack DAO</span>
                   <span className="secondText">NFT project to evolve</span>
                 </div>
                 <div className="images col-span-2">
-                  <div>
-                    <Image
-                      src={ImageFour}
-                      alt=""
-                      className="rounded-md"
-                      width={620}
-                      height={348}
-                    />{" "}
-                  </div>
+                  <Image
+                    src={ImageFour}
+                    alt=""
+                    className="rounded-md"
+                    width={620}
+                    height={348}
+                  />{" "}
                   <span className="firstText">Precog Finance</span>
                   <span className="secondText">NFT project to evolve</span>
                 </div>
                 <div className="images col-span-1">
-                  <div>
-                    <Image
-                      src={ImageTwo}
-                      alt=""
-                      className="rounded-md"
-                      width={250}
-                      height={218}
-                    />{" "}
-                  </div>
+                  <Image
+                    src={ImageTwo}
+                    alt=""
+                    className="rounded-md"
+                    width={250}
+                    height={218}
+                  />{" "}
                   <span className="firstText">Jigstack DAO</span>
                   <span className="secondText">NFT project to evolve</span>
                 </div>
                 <div className="images col-span-1">
-                  <div>
-                    <Image
-                      src={ImageSix}
-                      alt=""
-                      className="rounded-md"
-                      width={262}
-                      height={350}
-                    />{" "}
-                  </div>
+                  <Image
+                    src={ImageSix}
+                    alt=""
+                    className="rounded-md"
+                    width={262}
+                    height={350}
+                  />{" "}
                   <span className="firstText">SchoolPeers</span>
                   <span className="secondText">NFT project to evolve</span>
                 </div>
