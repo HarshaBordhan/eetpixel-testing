@@ -33,6 +33,10 @@ a {
   @apply flex flex-col gap-1 cursor-pointer w-full
 }
 
+.image{
+  @apply rounded-md object-cover w-full
+}
+
 .firstText{
   @apply font-normal text-sm
 }
