@@ -68,7 +68,7 @@ export default function Home() {
                   <Image
                     src={ImageTwo}
                     alt=""
-                    className="rounded-md"
+                    className="image"
                     width={250}
                     height={218}
                   />
@@ -80,7 +80,7 @@ export default function Home() {
                   <Image
                     src={ImageThree}
                     alt=""
-                    className="rounded-md"
+                    className="image"
                     width={620}
                     height={348}
                   />
@@ -92,7 +92,7 @@ export default function Home() {
                   <Image
                     src={ImageFour}
                     alt=""
-                    className="rounded-md"
+                    className="image"
                     width={620}
                     height={348}
                   />{" "}
@@ -103,7 +103,7 @@ export default function Home() {
                   <Image
                     src={ImageTwo}
                     alt=""
-                    className="rounded-md"
+                    className="image"
                     width={250}
                     height={218}
                   />{" "}
@@ -114,7 +114,7 @@ export default function Home() {
                   <Image
                     src={ImageSix}
                     alt=""
-                    className="rounded-md"
+                    className="image"
                     width={262}
                     height={350}
                   />{" "}
