@@ -30,7 +30,7 @@ a {
 }
 
 .images{
-  @apply flex flex-col gap-1 cursor-pointer
+  @apply flex flex-col gap-1 cursor-pointer w-full
 }
 
 .firstText{
