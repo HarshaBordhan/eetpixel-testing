@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Jigstack() {
   return (
     // <main className="bg-white text-black">
-    <main className="bg-white text-black">
+    <main className="">
       <Link
         href="/"
         className="fixed bg-[#ffffff00] top-0 left-[60px] border-none rounded-bl-[30px] rounded-br-[30px] z-[100]"
