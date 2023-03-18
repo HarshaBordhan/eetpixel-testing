@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 import ImageOne from "../public/images/Mask group.jpg";
 import ImageTwo from "../public/images/Mask group (1).jpg";
 import ImageThree from "../public/images/Mask group (2).jpg";
@@ -76,7 +77,7 @@ export default function Home() {
                   <span className="firstText">Shuttermint</span>
                   <span className="secondText">NFT project to evolve</span>
                 </div>
-                <div className="images col-span-2">
+                <Link href="/jigstack" className="images col-span-2">
                   <Image
                     src={ImageThree}
                     alt=""
@@ -87,7 +88,7 @@ export default function Home() {
 
                   <span className="firstText">Jigstack DAO</span>
                   <span className="secondText">NFT project to evolve</span>
-                </div>
+                </Link>
                 <div className="images col-span-2">
                   <Image
                     src={ImageFour}
