@@ -317,7 +317,7 @@ export default function Home() {
               </div>
             </section>
             <section
-              className="flex flex-col justify-between items-center mb-44 pt-20"
+              className="flex flex-col justify-between items-center mt-44 mb-44 pt-20"
               id="section-5"
             >
               <h2 className="font-thin text-3xl mb-3">
