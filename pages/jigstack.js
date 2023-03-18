@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Jigstack() {
   return (
-    <main>
-      <Link href="/">
+    <main className="bg-white text-black">
+      <Link href="/" className="">
         <svg
           width="87"
           height="32"
