@@ -34,7 +34,7 @@ a {
 }
 
 .image{
-  @apply rounded-md object-cover w-full
+  @apply rounded-md object-cover w-full cursor-pointer
 }
 
 .firstText{
