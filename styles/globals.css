@@ -38,11 +38,11 @@ a {
 }
 
 .firstText{
-  @apply font-normal text-sm cursor-pointer
+  @apply font-normal text-sm
 }
 
 .secondText{
-  @apply font-thin text-sm cursor-pointer
+  @apply font-thin text-sm
 }
 
 .service{
