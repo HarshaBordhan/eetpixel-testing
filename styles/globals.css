@@ -38,7 +38,7 @@ a {
 }
 
 .firstText{
-  @apply font-normal text-sm
+  @apply font-normal text-sm cursor-pointer
 }
 
 .secondText{
