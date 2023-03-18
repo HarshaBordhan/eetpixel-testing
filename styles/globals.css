@@ -42,7 +42,7 @@ a {
 }
 
 .secondText{
-  @apply font-thin text-sm
+  @apply font-thin text-sm cursor-pointer
 }
 
 .service{
