@@ -1,3 +1,3 @@
 export default function Jigstack() {
-  return <div></div>;
+  return <main></main>;
 }
