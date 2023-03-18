@@ -2,6 +2,7 @@ import Link from "next/link";
 
 export default function Jigstack() {
   return (
+    // <main className="bg-white text-black">
     <main className="bg-white text-black">
       <Link
         href="/"
