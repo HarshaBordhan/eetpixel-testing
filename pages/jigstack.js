@@ -73,14 +73,14 @@ export default function Jigstack() {
           className="h-[50vh] w-full object-cover"
         />
       </section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section className=""></section>
+      <section className=""></section>
+      <section className=""></section>
+      <section className=""></section>
+      <section className=""></section>
+      <section className=""></section>
+      <section className=""></section>
+      <section className=""></section>
     </main>
   );
 }
