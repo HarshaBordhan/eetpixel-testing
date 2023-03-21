@@ -62,7 +62,7 @@ export default function Jigstack() {
       </Link>
 
       <section className="heading-img">
-
+        
       </section>
     </main>
   );
