@@ -74,6 +74,13 @@ export default function Jigstack() {
         />
       </section>
       <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
     </main>
   );
 }
