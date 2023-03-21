@@ -60,6 +60,10 @@ export default function Jigstack() {
           </defs>
         </svg>
       </Link>
+
+      <section>
+        
+      </section>
     </main>
   );
 }
