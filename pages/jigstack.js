@@ -75,6 +75,7 @@ export default function Jigstack() {
       </section>
       <section className="">
         <h2></h2>
+        <p></p>
       </section>
       <section className=""></section>
       <section className=""></section>
