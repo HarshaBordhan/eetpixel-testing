@@ -74,8 +74,21 @@ export default function Jigstack() {
         />
       </section>
       <section className="">
-        <h2></h2>
-        <p></p>
+        <h2>
+          Jigstack DAO – Decentralized Autonomous Organization for token launch,
+          staking, NFT & wallet platform
+        </h2>
+        <p>
+          Jigstack DAO has partnered with us to develop a comprehensive
+          decentralized finance (DeFi) solution, including branding, application
+          design, and a non-custodial wallet. Our collaboration began at the
+          design phase and continued through the full product life cycle to
+          ensure the best possible user experience. To achieve this goal, we
+          focused on developing a user-friendly interface and pixel-perfect
+          design. By working closely with Jigstack DAO throughout the project,
+          we were able to deliver a high-quality, fully-fledged DeFi solution
+          that meets the needs of our users.
+        </p>
       </section>
       <section className=""></section>
       <section className=""></section>
