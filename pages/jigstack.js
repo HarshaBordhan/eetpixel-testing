@@ -61,8 +61,8 @@ export default function Jigstack() {
         </svg>
       </Link>
 
-      <section>
-        
+      <section className="heading-img">
+
       </section>
     </main>
   );
