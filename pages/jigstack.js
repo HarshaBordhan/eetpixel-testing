@@ -69,6 +69,7 @@ export default function Jigstack() {
           alt="DAO"
           width={100}
           height={100}
+          priority={true}
           className="h-[50vh] w-full object-cover"
         />
       </section>
