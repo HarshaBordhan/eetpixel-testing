@@ -5,7 +5,7 @@ import HeadingImage from "/public/images/image 25.jpg";
 export default function Jigstack() {
   return (
     <main className="bg-white text-black">
-    {/* <main className=""> */}
+      {/* <main className=""> */}
       <Link
         href="/"
         className="fixed bg-[#ffffff00] top-0 left-[60px] border-none rounded-bl-[30px] rounded-br-[30px] z-[100]"
@@ -74,7 +74,7 @@ export default function Jigstack() {
         />
       </section>
       <section className="">
-        <h2>
+        <h2 className="text-2xl">
           Jigstack DAO – Decentralized Autonomous Organization for token launch,
           staking, NFT & wallet platform
         </h2>
