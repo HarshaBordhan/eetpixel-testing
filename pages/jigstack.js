@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import HeadingImage from "/public/images/image 25.jpg";
 
 export default function Jigstack() {
   return (
@@ -62,7 +64,7 @@ export default function Jigstack() {
       </Link>
 
       <section className="heading-img">
-        
+        <Image src={HeadingImage} alt="DAO" width={100} height={100} />
       </section>
     </main>
   );
