@@ -17,7 +17,7 @@ export default function Jigstack() {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g clip-path="url(#clip0_1286_46)">
+          <g clipPath="url(#clip0_1286_46)">
             <path
               d="M43.5 0H3C3.945 0 17.5 0.225 25.14 10.76C33.04 21.68 34.7 29 43.5 29C52.3 29 53.96 21.68 61.86 10.76C69.5 0.225 83.055 0 84 0H43.5Z"
               fill="white"
