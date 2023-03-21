@@ -41,9 +41,9 @@ export default function Jigstack() {
               <path
                 d="M39.5 11.5L48.5 20.5"
                 stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
           </g>
