@@ -64,7 +64,13 @@ export default function Jigstack() {
       </Link>
 
       <section className="heading-img">
-        <Image src={HeadingImage} alt="DAO" width={100} height={100} />
+        <Image
+          src={HeadingImage}
+          alt="DAO"
+          width={100}
+          height={100}
+          className="h-[50vh] w-full object-cover"
+        />
       </section>
     </main>
   );
