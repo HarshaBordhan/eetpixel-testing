@@ -30,7 +30,7 @@ export default function Jigstack() {
               d="M43.5 0H0C1.025 0 15.59 0.25 23.78 11.875C32.265 23.925 34.05 32 43.5 32C52.95 32 54.76 23.925 63.22 11.875C71.41 0.25 86 0 87 0H43.5Z"
               fill="white"
             />
-            <g clip-path="url(#clip1_1286_46)">
+            <g clipPath="url(#clip1_1286_46)">
               <path
                 d="M48.5 11.5L39.5 20.5"
                 stroke="black"
