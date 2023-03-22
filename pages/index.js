@@ -65,7 +65,7 @@ export default function Home() {
                   <span className="firstText">MAD Metascientist</span>
                   <span className="secondText">NFT project to evolve</span>
                 </Link>
-                <Link className="images col-span-1">
+                <Link href="/posts" className="images col-span-1">
                   <Image
                     src={ImageTwo}
                     alt=""
