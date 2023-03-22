@@ -16,7 +16,7 @@ export default function UserList({ users }) {
 export async function getStaticProps() {
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
   const users = await res.json();
-  console.log(users);
+  // console.log(users);
 
   return {
     props: {
