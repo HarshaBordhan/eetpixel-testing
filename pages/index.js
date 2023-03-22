@@ -77,7 +77,7 @@ export default function Home() {
                   <span className="firstText">Shuttermint</span>
                   <span className="secondText">NFT project to evolve</span>
                 </Link>
-                <div className="images col-span-2">
+                <Link href="/jigstack" className="images col-span-2">
                   <Image
                     src={ImageThree}
                     alt=""
@@ -88,7 +88,7 @@ export default function Home() {
 
                   <span className="firstText">Jigstack DAO</span>
                   <span className="secondText">NFT project to evolve</span>
-                </div>
+                </Link>
                 <div className="images col-span-2">
                   <Image
                     src={ImageFour}
