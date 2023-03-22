@@ -53,7 +53,7 @@ export default function Home() {
                 <h3 className="font-normal text-2xl">work we did</h3>
               </div>
               <div className="grid grid-cols-4 grid-rows-2 justify-center justify-items-center w-full gap-16 gap-y-8">
-                <Link className="images col-span-1">
+                <Link href="/users" className="images col-span-1">
                   <Image
                     src={ImageOne}
                     alt=""
