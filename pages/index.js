@@ -11,7 +11,7 @@ import ImageSix from "../public/images/Mask group (4).jpg";
 export default function Home() {
   return (
     <>
-      <contain className="">
+      <div className="">
         <div className="max-w-[1440px] mx-auto px-[2rem] py-[1rem]">
           <Header />
           <main className="flex flex-col mt-12">
@@ -357,7 +357,7 @@ export default function Home() {
           </main>
           <Footer />
         </div>
-      </contain>
+      </div>
     </>
   );
 }
