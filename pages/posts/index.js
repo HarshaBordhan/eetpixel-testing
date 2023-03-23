@@ -22,7 +22,7 @@ export default function Posts({ posts }) {
 export async function getStaticProps() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
   const data = await res.json();
-
+  
   return {
     props: {
       posts: data.slice(0, 3),
