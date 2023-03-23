@@ -1,4 +1,3 @@
-/*
 import { useRouter } from "next/router";
 
 function Product({ product }) {
@@ -25,6 +24,7 @@ export async function getStaticProps(context) {
 
   const res = await fetch(`http://localhost:4000/products/${params.productId}`);
   const data = await res.json();
+
   console.log(`Generating page for /products/${params.productId}`);
 
   return {
@@ -40,9 +40,4 @@ export async function getStaticPaths() {
     paths: [{ params: { productId: "1" } }],
     fallback: true,
   };
-}
-*/
-
-export default function Product() {
-  return <></>;
 }
