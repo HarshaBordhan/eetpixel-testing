@@ -55,15 +55,8 @@ export async function getStaticProps({ params }) {
 // fetching paths for getStaticPaths
 /*
 ///////////////////////////////////////////
-import { useRouter } from "next/router";
 
 export default function PostId({ post }) {
-  const router = useRouter();
-
-  if (router.isFallback) {
-    <h1>Loading...</h1>;
-  }
-
   return (
     <div>
       <h1>{post.title}</h1>
