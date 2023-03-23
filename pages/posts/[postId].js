@@ -83,6 +83,7 @@ export async function getStaticPaths() {
     //   { params: { postId: "3" } },
     // ],
     paths,
+    // fallback: false,
     fallback: true,
   };
 }
@@ -94,6 +95,7 @@ export async function getStaticProps(context) {
     `https://jsonplaceholder.typicode.com/posts/${params.postId}`
   );
   const data = await res.json();
+
 
   return {
     props: {
