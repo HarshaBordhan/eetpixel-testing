@@ -154,7 +154,6 @@ export async function getStaticProps(context) {
 */
 
 // fallback: true
-
 ///////////////////////////////////////////
 import { useRouter } from "next/router";
 
@@ -167,7 +166,9 @@ export default function PostId({ post }) {
 
   return (
     <div>
-      <h1>{post.title}</h1>
+      <h2>
+        {post.id} {post.title}
+      </h2>
       <p>{post.body}</p>
     </div>
   );
