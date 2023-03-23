@@ -1,4 +1,3 @@
-/*
 import { useRouter } from "next/router";
 
 function Product({ product }) {
@@ -40,9 +39,4 @@ export async function getStaticPaths() {
     paths: [{ params: { productId: "1" } }],
     fallback: true,
   };
-}
-*/
-
-export default function Product() {
-  return <></>;
 }
