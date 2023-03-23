@@ -60,8 +60,8 @@ export async function getStaticProps() {
 
   return {
     props: {
-      // posts: data,
-      posts: data.slice(0, 3),
+      posts: data,
+      // posts: data.slice(0, 3), // just test
     },
   };
 }
