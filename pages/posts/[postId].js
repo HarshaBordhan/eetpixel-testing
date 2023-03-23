@@ -161,7 +161,7 @@ export default function PostId({ post }) {
   const router = useRouter();
 
   if (router.isFallback) {
-    <h1>Loading...</h1>;
+    return <h1>Loading...</h1>;
   }
 
   return (
