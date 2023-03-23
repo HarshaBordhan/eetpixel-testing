@@ -206,6 +206,12 @@ export async function getStaticProps(context) {
   );
   const data = await res.json();
 
+  if (!data.id) {
+    return {
+      notFound: true,
+    };
+  }
+
   console.log(`Generating page for /posts/${params.postId}`);
 
   return {

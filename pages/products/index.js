@@ -1,3 +1,4 @@
+/*
 export default function ProductList({ products }) {
   return (
     <>
@@ -25,4 +26,9 @@ export async function getStaticProps() {
     },
     // revalidate: 30,
   };
+}
+*/
+
+export default function Product() {
+  return <></>;
 }
