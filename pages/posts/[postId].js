@@ -1,3 +1,4 @@
+// SSG
 /*
 export default function PostId({ post }) {
   return (
@@ -51,7 +52,7 @@ export async function getStaticProps({ params }) {
 }
 */
 
-/*
+// fallback: false
 //////////////////////////////////////
 export default function PostId({ post }) {
   return (
@@ -75,7 +76,13 @@ export async function getStaticPaths() {
   });
 
   return {
-    paths,
+    paths: [
+      {
+        params: { postId: "1" },
+      },
+      { params: { postId: "2" } },
+      { params: { postId: "3" } },
+    ],
     fallback: false,
   };
 }
@@ -94,8 +101,9 @@ export async function getStaticProps(context) {
     },
   };
 }
-*/
 
+// fallback: true
+/*
 ///////////////////////////////////////////
 import { useRouter } from "next/router";
 
@@ -156,3 +164,4 @@ export async function getStaticProps(context) {
     },
   };
 }
+*/

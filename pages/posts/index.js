@@ -1,3 +1,4 @@
+// SSG and fallback: true
 /*
 import Link from "next/link";
 
@@ -31,6 +32,7 @@ export async function getStaticProps() {
 }
 */
 
+// fallback: false
 ////////////////////////////////////////
 import Link from "next/link";
 
