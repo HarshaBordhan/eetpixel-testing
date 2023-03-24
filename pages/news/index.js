@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function NewsArticleList({ articles }) {
   return (
     <>
@@ -5,9 +7,11 @@ export default function NewsArticleList({ articles }) {
       {articles.map((article) => {
         return (
           <div key={article.id}>
-            <h2>
-              {article.id} {article.title} | {article.catagory}
-            </h2>
+            <Link href={`/news/${article.category}`}>
+              <h2>
+                {article.id} {article.title} | {article.category}
+              </h2>
+            </Link>
           </div>
         );
       })}
