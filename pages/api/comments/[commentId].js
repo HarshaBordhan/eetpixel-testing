@@ -1,4 +1,3 @@
-import { comment } from "postcss";
 import { comments } from "../../../data/comments";
 
 export default function handler(req, res) {
