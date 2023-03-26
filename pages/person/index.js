@@ -46,10 +46,11 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 // };
 
 export default function Person() {
-  const { data, error } = useSWR("/api/people", fetcher);
+  const { data, error, isLoading } = useSWR("/api/people", fetcher);
 
-  if (error) return "There is something wrong!";
-  if (!data) return "Loading";
+  if (error) return <div>Failed to load</div>;
+  if (isLoading) <div>Loading...</div>;
+  if (!data) return null;
 
   return (
     <ul>
