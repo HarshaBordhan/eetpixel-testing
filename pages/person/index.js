@@ -52,18 +52,18 @@ export default function Person() {
   if (!data) return "Loading";
 
   return (
-    <>
+    <ul>
       {data.map((person) => (
-        <>
+        <div key={person.id}>
           {/*<Link key={person.id} href={`/person/${person.id}`}>
           <li>
             {person.id} {person.name}
           </li>
       </Link>*/}
 
-          <PersonComp key={person.id} person={person} />
-        </>
+          <PersonComp person={person} />
+        </div>
       ))}
-    </>
+    </ul>
   );
 }
