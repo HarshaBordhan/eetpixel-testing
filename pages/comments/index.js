@@ -11,7 +11,7 @@ export default function CommentList() {
   };
 
   const submitComments = async (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     const res = await fetch("/api/comments", {
       method: "POST",
       // body: JSON.stringify({ comment: comment }),
