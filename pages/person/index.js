@@ -1,12 +1,8 @@
-// import { useSWR } from "swr";
-
 import { useEffect, useState } from "react";
-
-// const fetcher = () => {};
 
 export default function Person() {
   const [isLoading, setIsLoading] = useState(true);
-  const [personData, setPersonData] = useState(null);
+  const [personData, setPersonData] = useState([]);
   // const { data, error } = useSWR("person", fetcher);
 
   useEffect(() => {
@@ -25,9 +21,11 @@ export default function Person() {
 
   return (
     <>
-      <div className="text-white">
-        {personData.id} {personData.name}
-      </div>
+      {personData.map((person) => (
+        <div className="text-white" key={person.id}>
+          {person.id} {person.name}
+        </div>
+      ))}
     </>
   );
 }
