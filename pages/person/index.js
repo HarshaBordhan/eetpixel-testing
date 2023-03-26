@@ -31,7 +31,10 @@ export default function Person() {
   );
 }
 */
+
+// Or, (using swr)
 import useSWR from "swr";
+import Link from "next/link";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -51,9 +54,11 @@ export default function Person() {
   return (
     <>
       {data.map((person) => (
-        <div key={person.id}>
-          {person.id} {person.name}
-        </div>
+        <Link key={person.id} href={`/person/${person.id}`}>
+          <li>
+            {person.id} {person.name}
+          </li>
+        </Link>
       ))}
     </>
   );

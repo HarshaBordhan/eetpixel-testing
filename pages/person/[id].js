@@ -22,15 +22,31 @@ export default function PersonId() {
   if (!data) return "Loading...";
 
   return (
-    <div>
-      <li>{data.id}</li>
-      <li>{data.name}</li>
-      <li>{data.height}</li>
-      <li>{data.mass}</li>
-      <li>{data.hair_color}</li>
-      <li>{data.skin_color}</li>
-      <li>{data.eye_color}</li>
-      <li>{data.gender}</li>
-    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Name</th>
+          <th>Height</th>
+          <th>Weight</th>
+          <th>Hair Color</th>
+          <th>Skin Color</th>
+          <th>Eye Color</th>
+          <th>Gender</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{data.id}</td>
+          <td>{data.name}</td>
+          <td>{data.height}</td>
+          <td>{data.mass}</td>
+          <td>{data.hair_color}</td>
+          <td>{data.skin_color}</td>
+          <td>{data.eye_color}</td>
+          <td>{data.gender}</td>
+        </tr>
+      </tbody>
+    </table>
   );
 }
