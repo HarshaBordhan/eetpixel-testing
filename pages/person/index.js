@@ -1,1 +1,1 @@
-export default function PersonComp() {}
+export default function Person() {}
