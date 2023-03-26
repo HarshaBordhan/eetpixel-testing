@@ -34,7 +34,7 @@ export default function Person() {
 
 // Or, (using swr)
 import useSWR from "swr";
-import Link from "next/link";
+import PersonComp from "../../components/Person/PersonComp";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
@@ -54,11 +54,15 @@ export default function Person() {
   return (
     <>
       {data.map((person) => (
-        <Link key={person.id} href={`/person/${person.id}`}>
+        <>
+          {/*<Link key={person.id} href={`/person/${person.id}`}>
           <li>
             {person.id} {person.name}
           </li>
-        </Link>
+      </Link>*/}
+
+          <PersonComp key={person.id} person={person} />
+        </>
       ))}
     </>
   );
