@@ -23,7 +23,7 @@ export default function PersonId() {
   );
 
   if (error) return <div>{error.message}</div>;
-  if (isLoading) <div>Loading...</div>;
+  if (isLoading) return <div>Loading...</div>;
   if (!data) return null;
 
   return (

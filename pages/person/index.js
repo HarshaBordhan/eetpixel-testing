@@ -49,7 +49,7 @@ export default function Person() {
   const { data, error, isLoading } = useSWR("/api/people", fetcher);
 
   if (error) return <div>Failed to load</div>;
-  if (isLoading) <div>Loading...</div>;
+  if (isLoading) return <div>Loading...</div>;
   if (!data) return null;
 
   return (
