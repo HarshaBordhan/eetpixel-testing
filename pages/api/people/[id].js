@@ -6,6 +6,13 @@ export default function handler(req, res) {
     const person = people.find(
       (person) => parseInt(person.id) === parseInt(id)
     );
-    res.status(200).json(person);
+
+    // res.status(200).json(person);
+
+    person
+      ? res.status(200).json(person)
+      : res
+          .status(404)
+          .json({ message: `Something went wrong!! User id ${id} not found` });
   }
 }
