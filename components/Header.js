@@ -12,7 +12,7 @@ export default function Header() {
             spy={true}
             smooth={true}
             offset={-66}
-            duration={500}
+            duration={800}
           >
             <svg
               width="48"
