@@ -76,7 +76,7 @@ export default function Jigstack() {
       <section className="">
         <h2 className="text-3xl">
           Jigstack DAO – Decentralized Autonomous Organization for token launch,
-          staking, NFT & wallet platform
+          staking, NFT & wallet platformf
         </h2>
         <p className="text-lg">
           Jigstack DAO has partnered with us to develop a comprehensive
@@ -90,6 +90,7 @@ export default function Jigstack() {
           that meets the needs of our users.
         </p>
       </section>
+      <section className=""></section>
       <section className=""></section>
       <section className=""></section>
       <section className=""></section>
